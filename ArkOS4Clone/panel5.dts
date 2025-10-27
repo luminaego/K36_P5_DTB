@@ -1045,7 +1045,7 @@
 			pinctrl-names = "default";
 			pinctrl-0 = <&i2s1_2ch_mclk>;
 			spk-ctl-gpios = <&gpio3 RK_PA7 GPIO_ACTIVE_HIGH>;
-			spk-mute-delay-ms = <500>;
+			spk-mute-delay-ms = <50>;
 			use-ext-amplifier;
 			hp-volume = <20>;
 			spk-volume = <3>;
