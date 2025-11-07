@@ -930,6 +930,7 @@
 			};
 
 			vcc_sd: LDO_REG6 {
+				regulator-always-on;
 				regulator-min-microvolt = <3300000>;
 				regulator-max-microvolt = <3300000>;
 
